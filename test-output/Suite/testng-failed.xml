@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="naukri login(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetbanking.testCases.TC_UpdateITSkill_003">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="addITSkill"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_UpdateITSkill_003 -->
+    </classes>
+  </test> <!-- naukri login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
